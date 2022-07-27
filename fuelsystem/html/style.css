@@ -1,0 +1,140 @@
+body {
+    font-family: sans-serif;
+    overflow: hidden;
+    display: none;
+}
+
+#cursor {
+    position: absolute;
+    z-index: 999999;
+    display: none;
+}
+
+.loadbar {
+     width:122px;
+     height:126px;
+     background-color:rgba(0, 0, 0, 0.2);
+     border:none;
+     position:absolute;
+     top:0;
+     left:0;
+     right:0;
+     bottom:332;
+     margin:auto;
+}
+
+.bar {
+    width:100%;
+    display:block;
+    font-family:arial;
+    font-size:0px;
+    background-color:rgba(52, 145, 78, 0.6);
+    color:#fff;
+    position:absolute;
+    bottom:0;
+}
+
+.petrolbutton {
+    outline: none;
+    border: none !important;
+    font-size: 16px;
+    width: 104;
+    height: 129;
+    position:absolute;
+    top:0;
+    border-radius: 10px;
+    left:0;
+    right:260;
+    bottom:320;
+    margin:auto;
+}
+
+.dieselbutton {
+    outline: none;
+    border: none !important;
+    font-size: 16px;
+    width: 104;
+    height: 129;
+    position:absolute;
+    border-radius: 10px;
+    top:0;
+    left:260;
+    right:0;
+    bottom:320;
+    margin:auto;
+}
+
+.cardbutton {
+    outline: none;
+    background: transparent;
+    border: none !important;
+    font-size: 16px;
+    width: 170;
+    height: 90;
+    border-radius: 10px;
+    position:absolute;
+    top:0;
+    left:0;
+    right:180;
+    bottom:11;
+    margin:auto;
+}
+
+.walletbutton {
+    outline: none;
+    background: transparent;
+    border: none !important;
+    font-size: 16px;
+    width: 170;
+    height: 90;
+    position:absolute;
+    border-radius: 10px;
+    top:0;
+    left:180;
+    right:0;
+    bottom:11;
+    margin:auto;
+}
+
+.kanisterbutton {
+    outline: none;
+    background: transparent;
+    border: none !important;
+    width: 353;
+    height: 58;
+    position:absolute;
+    top:160;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+}
+
+.fuelbutton {
+    outline: none;
+    background: transparent;
+    border: none !important;
+    width: 353;
+    height: 58;
+    position:absolute;
+    top:300;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+}
+
+div {
+    position:absolute;
+    height: 100%;
+    width:100%;
+}
+
+div img {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:200;
+    margin:auto;
+}
